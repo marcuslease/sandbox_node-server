@@ -4,11 +4,16 @@
   "description": "sandbox for toying with node express",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mdl1550",
+  "author": "Marcus Lease",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "helmet": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
